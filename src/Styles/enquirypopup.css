@@ -1,0 +1,82 @@
+/* Popup overlay for background dim */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background: rgba(19, 34, 53, 0.20);
+  backdrop-filter: blur(10px); /* semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Popup card styling */
+.epopup-card {
+  background-color: white;
+  width:calc(35%);
+  /* width: 400px; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+
+/* Header part containing title and close button */
+.epopup-header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Close button styling */
+.epopup-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Popup body content */
+.epopup-body {
+  padding: 20px;
+}
+
+/* Image on top */
+.epopup-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Content below the image */
+.epopup-content {
+  text-align: center;
+}
+
+/* Price styling */
+.epopup-price {
+  color: #007bff;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Title styling */
+.epopup-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.epopup-description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}

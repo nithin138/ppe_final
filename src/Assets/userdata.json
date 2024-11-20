@@ -1,0 +1,9 @@
+{
+  "user_list": {
+    "firstname": "Enter your First Name",
+    "lastname": "Enter your Last Name",
+    "gender": "Choose your Gender",
+    "mail": "Enter your Email",
+    "contact_number": "Enter your Number"
+  }
+}

@@ -1,0 +1,463 @@
+.ppe-topcont{
+  border-bottom : 1px solid #E1E6EF;
+}
+.ppe-topbar {
+  /* padding:0; */
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  height:38px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.ppe-topbar p{
+  color:#00A9E8;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  /* cursor: pointer; */
+}
+.ppe-rbuttons {
+display: flex;
+gap:12px;
+cursor: pointer;
+}
+.ppe-b-button input{
+  cursor: pointer;
+}
+.ppe-b-button{
+  background-color: #00A9E8;
+  color:white;
+  border:none;
+  border-radius: 99px;
+  display: flex;
+  padding: 8px 16px;
+  gap: 8px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+}
+.ppe-selectbank {
+  /* width: 300px; */
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.ppe-bank-select-d1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ppe-bank-select-d1 h2{
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: auto;
+}
+.ppe-fown-arrow {
+  cursor: pointer;
+  margin-left: 10px;
+}
+.ppe-dropdown {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.ppe-dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+.ppe-dropdown-item:hover {
+  background-color: #F0F0F0;
+}
+.ppe-bank-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.ppe-bank-form h3 {
+  margin-bottom: 10px;
+}
+.ppe-bank-form label {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.ppe-bank-form input {
+  padding: 8px;
+  border-radius: 4px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 5px;
+}
+.ppe-form-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin-top: 10px;
+}
+.ppe-bank-form button {
+  align-items: center;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  width: 200px;
+}
+.ppe-close-button {
+  background-color: #DC3545;
+}
+.ppe-close-button:hover {
+  background-color: #C82333;
+}
+.ppe-bank-form button:hover {
+  background-color: #0056B3;
+}
+.ppe-service-list{
+padding-bottom:20px;
+border-bottom : 1px solid #E1E6EF;
+}
+.ppe-service-list-heading , .ppe-part1 {
+  display:flex;
+  flex-direction: row;
+  gap:12px;
+  align-items: center;
+  justify-content: space-between;
+}
+.ppe-service-list-heading h4{
+  color:#00A9E8;
+  padding:6px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.ppe-service-list-heading button , .ppe-service-list-heading p{
+  color: #f40;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  border:none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.ppe-servicebutton{
+  cursor:pointer;
+  color:#E50088;
+  border:none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  background-color: none;
+}
+.ppe-cards-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjusts spacing between cards */
+}
+.ppe-service-card {
+  display: flex;
+  /* background-color: black; */
+  border:1px solid #E1E6EF;
+  border-radius:12px;
+  padding:0;
+  /* gap:30px; */
+  flex-direction: row;
+  flex: 0 0 calc(50% - 10px);
+  margin-bottom: 10px; /* Adjusts the width of each card to 33% of the viewport width */
+  /* Ensures padding and borders are included in the width */
+}
+.ppe-card:nth-child(2n) {
+  margin-right: 0; /* Removes the right margin for every second card */
+}
+.ppe-servimg img {
+  width: 120px;
+  /* align-self: stretch; */
+  height: auto;
+  display: block;
+  padding:0px;
+  /* border:1px solid black; */
+  border-radius: 12px; /* Optional: Adds rounded corners to the image */
+}
+.ppe-servdescription{
+  padding:12px 16px;
+  display: flex;
+  flex-direction: column;
+  /* border:1px solid black; */
+}
+.price-business-product{
+}
+.ppe-service-price{
+  color: #00A9E8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding:0;
+  margin:0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+}
+.ppe-service-price p strong{
+  font-weight: 600;
+}
+.ppe-servdescription h3{
+  overflow: hidden;
+  /* border:1px solid black; */
+  text-overflow: ellipsis;
+  color: black;
+/* Title/5 - 18px */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin:0;
+  padding:0;
+  margin-bottom: 8px;
+}
+.ppe-b-desc{
+  /* border: 1px solid black; */
+  overflow: hidden;
+  color: var(--Gray-Shade-Gray-Shade-2, #364B63);
+  text-overflow: ellipsis;
+/* Text S/Regular - 14px */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  margin:0;
+}
+.ppe-b-product-card {
+   /* background-color: black; */
+   display: flex;
+   border:1px solid #E1E6EF;
+   border-radius:12px;
+   padding:0;
+   /* gap:30px; */
+   flex-direction: column;
+   flex: 0 0 calc(33% - 20px);
+   margin-bottom: 10px; /* Adjusts the width of each card to 33% of the viewport width */
+   /* Ensures padding and borders are included in the width */
+}
+.ppe-b-image-container {
+  position: relative;
+  display: inline-block;
+}
+.ppe-image {
+  display: block;
+  width: 100%; /* Adjust to your preferred size */
+  height: auto; /* Maintains aspect ratio */
+}
+.ppe-three-dot-icon {
+  position: absolute;
+  background-color: white;
+  border-radius:50%;
+  top: 9px;
+  right: 6px;
+  cursor: pointer;
+  padding:2px;
+}
+.ppe-b-product-card img{
+  width: 100%;
+  /* align-self: stretch; */
+  height: auto;
+  display: block;
+  padding:0px;
+  /* border:1px solid black; */
+  border-radius: 12px; /* Optional: Adds rounded corners to the image */
+}
+.ppe-b-product-card h3{
+  overflow: hidden;
+  color: var(--Gray-Shade-Gray-Shade-1, #132235);
+  text-overflow: ellipsis;
+  margin:0;
+  padding:0;
+/* Title/6 - 16px */
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 125% */
+}
+.ppe-b-product-card p{
+  overflow: hidden;
+color: var(--Gray-Shade-Gray-Shade-2, #364B63);
+text-overflow: ellipsis;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 150% */
+}
+.ppe-price{
+  color:#00A9E8;
+  display: flex;
+  flex-direction: row;
+  gap:4px;
+  align-items: baseline;
+}
+.ppe-priceline{
+  display:flex;
+  line-height: 22px;
+}
+.ppe-proddesc{
+margin: 10px 0 ;
+padding:0 16px;
+gap:14px;
+}
+
+/* -------------------------------------------------------------- */
+/* Order Summary Container */
+.order-summary-container {
+  display: flex;
+  width: 100%;
+  /* justify-content: center; */
+  margin: 20px 0;
+}
+
+/* Order Summary Card */
+.order-summary-card {
+  background-color: #F0FBFF;
+  border-radius: 10px;
+  border: 1px solid #00A9E8;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  width: 100%;
+  /* max-width: 700px; */
+  /* text-align: left; */
+}
+
+/* Title */
+.summary-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom:5px;
+  /* border:1px solid red; */
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+/* List of Items */
+.summary-items {
+  list-style: numeric;
+  /* padding: 0; */
+  margin: 0;
+}
+
+.summary-item {
+
+  font-size: 1rem;
+  color: #333;
+  list-style:decimal;
+
+  margin-bottom: 10px;
+}
+
+
+.summary-total-gst{
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E1E6EF;
+}
+/* Total Calculation */
+.summary-total {
+  font-size: 1.1rem;
+  font-weight: 500;
+
+  margin-top: 10px;
+  color: #0284c7; /* Blue color */
+}
+.summary-total-price{
+  font-size: 18;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+/* Actions (Buttons) */
+.order-summary-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap:20px;
+  margin-top: 20px;
+}
+
+.cancel-button ,.proceed-button{
+background-color: #00A9E8;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+
+.summary-item , .summary-total ,.summary-total-gst{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+
+.summary-item p, .summary-total p,.summary-total-gst p{
+font-size: 14px;
+line-height: 22px;
+font-weight: 400;
+}
+
+@media (max-width:1024px){
+  .ppe-b-product-card{
+    flex-direction: column;
+  }
+  .ppe-b-product-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+ 
+   .ppe-cards-list{
+    flex-direction: column;
+   } 
+  
+}
+@media (max-width:768px){
+  .ppe-topbar p{
+    font-size: 14px;
+  }
+  .price-business-product{
+    font-size: 14px;
+    margin:0;
+  }
+}
+
+@media (max-width:426px){
+  .ppe-topbar{
+    flex-direction: column;
+  }
+  .ppe-topbar p ,.ppe-topbar button{
+    display: none;
+  }
+ .ppe-service-card{
+    flex-direction: column;
+  }
+   .ppe-servimg img {
+    width: 350px;
+    height: 150px;
+  }
+}

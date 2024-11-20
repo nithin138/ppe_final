@@ -1,0 +1,139 @@
+
+.footer-container{
+    width: Fixed (1,440px)px;
+height: Hug (246px)px;
+top: 2722px;
+padding: 32px 120px 20px 120px;
+gap: 24px;
+
+background: #132235;
+margin-top: 30px;
+  }
+  .footer-content{
+    display: flex;
+    width: Fill (1,200px)px;
+height: Hug (194px)px;
+padding: 0px 0px 24px 0px;
+gap: 80px;
+border: 0px 0px 1px 0px;
+
+/* border:1px solid red; */
+align-items: center;
+justify-content: space-between;
+  }
+  .footer-logo{
+    width:289.76px;
+height: 170px;
+gap: 30px;
+
+color: white;
+/* border: 1px solid red; */
+margin-bottom: 60px;
+  }
+  .footer-logo h5{
+    width: 289.76px;
+height: 20px;
+gap: 0px;
+
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+margin-top: 30px;
+  }
+  .footer-logo p{
+    width: 289.76px;
+height: 66px;
+gap: 0px;
+
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+color: #FFFFFF;
+
+  }
+  .footer-component{
+    width: Fill (710.24px)px;
+height: Hug (170px)px;
+gap: 107px;
+display: flex;
+flex-direction: row;
+/* border: 1px solid red; */
+margin-left: 80px;
+/* align-items: center; */
+
+  }
+  .footer-link-content{
+    width: Fixed (240px)px;
+height: Hug (170px)px;
+gap: 30px;
+
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+  }
+   .footer-link-content h5{
+    width: 200px;
+  height: 24px;
+  gap: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #FFFFFF;
+ 
+  }
+.footer-list{
+    width:240px;
+height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+.footer-list a{
+    display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #FFFFFF99;
+  text-decoration: none;
+
+  }
+  .footer-list a:hover{
+    color:#FFFFFF99;
+    text-decoration: underline; 
+  }
+  .footer-list a:focus{
+   outline: none;
+  }
+  .social-media{
+    display: flex;
+    flex-direction: column;
+    width:40px;
+  height:212px;
+  gap: 12px;
+
+  margin-bottom: 20px;
+  
+  }
+  .media-button{
+    width:40px;
+  height:44px;
+  padding: 3px;
+  border-radius: 5px;
+    border:none;
+  color: #FFFFFF;
+  background-color: transparent;
+  /* background: #FFFFFF14; */
+  }
+ 
+  .facebook{
+    width: 70px;
+  height: 70px;
+  margin-right: 6px;
+  gap: 0px;
+
+  }
